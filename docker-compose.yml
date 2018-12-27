@@ -1,0 +1,10 @@
+# 网鼎杯 2018 Comment
+version: "2"
+
+services:
+
+  web:
+    image: ctftraining/wdb_2018_comment
+    restart: always
+    ports:
+      - "127.0.0.1:8307:80"
