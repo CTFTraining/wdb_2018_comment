@@ -8,3 +8,5 @@ services:
     restart: always
     ports:
       - "127.0.0.1:8307:80"
+    environment:
+      - FLAG=flag{flag_test}
