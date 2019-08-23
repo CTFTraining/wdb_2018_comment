@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "<?php\n\t\$flag=\"$FLAG\";\n?>" > /var/www/html/flag_8946e1ff1ee3e40f.php
+export FLAG=not_flag
+FLAG=not_flag
+
 service mysql start
 
 service apache2 start
